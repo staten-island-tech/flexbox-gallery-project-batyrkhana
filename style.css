@@ -26,7 +26,7 @@ html {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: ghostwhite;
-    width: 60vw;
+    width: 80vw;
     font-style: italic;
     font-family: 'Lora', serif;
     box-shadow: 1rem 1rem 0.25rem; 
@@ -48,7 +48,7 @@ html {
     margin-top: 5rem;
     margin-bottom: 2rem;
     background-color: ghostwhite;
-    width: 60vw;
+    width: 80vw;
     align-items: center;
     box-shadow: 1rem 2rem 0.25rem; 
 }
