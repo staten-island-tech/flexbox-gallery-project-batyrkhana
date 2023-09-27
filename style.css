@@ -93,3 +93,40 @@ html {
     transition: .1s cubic-bezier(.16,.53,.85,.45);
     filter: none;
 }
+#grid-card-3:hover {
+    transform: rotate(1turn);
+    transition: .5s cubic-bezier(.16,.53,.85,.45);
+    filter: none;
+}
+#grid-card-4:hover {
+    transform: skew(10deg, 10deg);
+    transition: .5s cubic-bezier(.16,.53,.85,.45);
+    filter: none;
+}
+#grid-card-5:hover {
+    cursor: none;
+}
+#grid-card-6:hover {
+    transform: translateY(-1rem);
+    transition: .1s cubic-bezier(.16,.53,.85,.45);
+    filter: none
+}
+#grid-card-7:hover {
+    transform: scale(1.1);
+    transition: .1s cubic-bezier(.16,.53,.85,.45);
+    filter: none;
+}
+#grid-card-8:hover {
+    transform: rotate(1turn);
+    transition: .5s cubic-bezier(.16,.53,.85,.45);
+    filter: none;
+}
+#grid-card-9:hover {
+    transform: skew(10deg, 10deg);
+    transition: .5s cubic-bezier(.16,.53,.85,.45);
+    filter: none;
+}
+#grid-card-10:hover {
+    cursor: none;
+    filter: none;
+}
