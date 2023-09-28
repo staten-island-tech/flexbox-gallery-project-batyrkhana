@@ -137,10 +137,10 @@ html {
     height: 2rem;
     width: 2rem;
     background-color: brown;
-    animation: moscow-animation 4s infinite;
+    animation: simple-animation 4s infinite;
     position: absolute;
 }
-@keyframes moscow-animation{
+@keyframes simple-animation{
     0% {
         left: 50%;
         bottom: 10%;
