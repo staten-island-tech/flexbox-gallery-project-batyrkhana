@@ -104,7 +104,10 @@ html {
     filter: none;
 }
 #grid-card-5:hover {
+    border-color: green;
+    border-width: 0.25rem;
     cursor: none;
+    filter: none;
 }
 #grid-card-6:hover {
     transform: translateY(-1rem);
@@ -129,4 +132,43 @@ html {
 #grid-card-10:hover {
     cursor: none;
     filter: none;
+}
+.animation{
+    height: 2rem;
+    width: 2rem;
+    background-color: brown;
+    animation: moscow-animation 4s infinite;
+    position: absolute;
+}
+@keyframes moscow-animation{
+    0% {
+        left: 50%;
+        bottom: 10%;
+        background-color: greenyellow;
+    }
+    12.5% {
+        left: 80%;
+        bottom: 30%;
+        background-color: aqua;
+    }
+    25%{
+        left: 60%;
+        bottom: 30%;
+        background-color: olivedrab;
+    }
+    50%{
+        left: 50%;
+        bottom: 20%;
+        background-color: peru;
+    }
+    75%{
+        left: 60%;
+        bottom: 20%;
+        background-color: purple;
+    }
+    100%{
+        left: 40%;
+        bottom: 5%;
+        background-color: pink;
+    }
 }
