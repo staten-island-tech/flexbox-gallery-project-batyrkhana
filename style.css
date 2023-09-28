@@ -26,10 +26,12 @@ html {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: ghostwhite;
-    width: 70vw;
+    width: 40vw;
     font-style: italic;
     font-family: 'Lora', serif;
     box-shadow: 1rem 1rem 0.25rem; 
+    animation: simple-animation 4s infinite;
+    position: relative
 }
 .grid {
     padding: 2rem;
@@ -133,42 +135,25 @@ html {
     cursor: none;
     filter: none;
 }
-.animation{
-    height: 2rem;
-    width: 2rem;
-    background-color: brown;
-    animation: simple-animation 4s infinite;
-    position: absolute;
-}
+
 @keyframes simple-animation{
     0% {
-        left: 50%;
-        bottom: 10%;
         background-color: greenyellow;
     }
-    12.5% {
-        left: 80%;
-        bottom: 30%;
-        background-color: aqua;
-    }
     25%{
-        left: 60%;
-        bottom: 30%;
+        right: 20%;
         background-color: olivedrab;
     }
     50%{
-        left: 50%;
-        bottom: 20%;
+        left: -20%;
         background-color: peru;
     }
     75%{
-        left: 60%;
-        bottom: 20%;
-        background-color: purple;
+        right: 20%;
+        background-color: yellow;
     }
     100%{
-        left: 40%;
-        bottom: 5%;
+        left: 20%;
         background-color: pink;
     }
 }
